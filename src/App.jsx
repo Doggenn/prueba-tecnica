@@ -9,8 +9,8 @@ function App() {
 
   return (
     <>
-      <Header></Header>
       <Router>
+      <Header></Header>
         <Routes>
           <Route path='/' element={<Cards></Cards>} />
           <Route path='/:id' element={<Card></Card>} />
